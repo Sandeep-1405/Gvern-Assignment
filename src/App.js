@@ -2,7 +2,7 @@ import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './Components/Home/Home';
-import AddUser from './Components/Home/AddUser/AddUser';
+import AddUser from './Components/AddUser/AddUser';
 import './App.css';
 
 function App() {
