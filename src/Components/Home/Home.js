@@ -4,7 +4,7 @@ import './Home.css'
 function Home(){
 
     return(
-        <div className='bg-primary vh-100'>
+        <div>
             <h2 className="p-3 bg-light w-50 heading m-auto">Home</h2>
 
             <Link to="/add-user" className='btn btn-success m-5 p-3'>+Add User</Link>
