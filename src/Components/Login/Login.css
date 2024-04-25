@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 
-.lcard{
+.login-card{
     background-color: #fff;
     height: 100%;
     width: 30vw;
@@ -19,22 +19,11 @@ body{
     padding-bottom: 20px;
 }
 @media screen and (max-width:800px) {
-    .lcard{
+    .login-card{
         width: 70vw;
     }
 }
-  
-.content {
-    position: relative;
-    background: transparent;
-    border: 2px solid black;
-    text-align: center;
-    width: 40%;
-    height: 62%;
-    margin: auto;
-    top: 20%;
-}
-.loginheading{
+.login-heading{
     color: rgb(18, 162, 229);
     font-weight: bold;
     font-size: 42px;
@@ -52,24 +41,6 @@ body{
     font-size: 16px;
     color: blue;
 }
-.btns{
-    color: black;
-    background-color: #fff;
-    height: 40px;
-    width: 40%;
-    font-size: 18px;
-}
-  
-@media screen and (max-width:768px){
-    .bg{
-      height: 100vh;
-    }
-    .content{
-      width: 90%;
-      height: auto;
-      padding-bottom: 20px;
-    }
-}
 .signupback{
     margin: 20px;
     padding-left: 20px;
@@ -79,4 +50,9 @@ body{
     cursor: pointer;
     font-size: 16px;
     color: black;
+}
+@media screen and (max-width:768px){
+    .bg{
+      height: 100vh;
+    }
 }

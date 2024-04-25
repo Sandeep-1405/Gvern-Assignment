@@ -8,21 +8,21 @@ body{
     height: 100vh;
     overflow: auto;
 }
-.scard{
+.signup-card{
     background-color: #fff;
     height: 100%;
-    width: 50vw;
+    width: 40vw;
     border-radius: 8px;
     margin: auto;
     position: relative;
     top: 10vh;
 }
 @media screen and (max-width:1000px) {
-    .scard{
+    .signup-card{
         width: 70vw;
     }
 }
-.sheading{
+.signup-heading{
     color: rgb(18, 162, 229);
     font-weight: bold;
     font-size: 42px;
